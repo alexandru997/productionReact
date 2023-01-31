@@ -5,7 +5,7 @@
     // However, this does not mean that you can no longer use any at all.
     // It only means that in such situations, the developer must explicitly write any,
     "noImplicitAny": true,
-    "module": "es6",
+    "module": "ESNext",
     // What specification do we compile to: to support most browsers
     "target": "es5",
     "jsx": "react-jsx",
