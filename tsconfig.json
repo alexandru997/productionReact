@@ -10,7 +10,7 @@
     "target": "es5",
     "jsx": "react",
 
-    "baseUrl": ".",
+//    "baseUrl": ".",
     // The compiler will process not only TS files, but also JS files
     "allowJs": true,
     "moduleResolution": "node",
