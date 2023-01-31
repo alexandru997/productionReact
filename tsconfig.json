@@ -8,7 +8,7 @@
     "module": "es6",
     // What specification do we compile to: to support most browsers
     "target": "es5",
-    "jsx": "react",
+    "jsx": "react-jsx",
 
 //    "baseUrl": ".",
     // The compiler will process not only TS files, but also JS files
