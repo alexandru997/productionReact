@@ -4,6 +4,7 @@ import { routeConfig } from 'shared/config/routeConfig/routeConfig';
 
 const AppRoute = () => (
 
+    // eslint-disable-next-line i18next/no-literal-string
     <Suspense fallback={<div>Loading...</div>}>
         <Routes>
             {
