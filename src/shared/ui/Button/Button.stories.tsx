@@ -1,6 +1,7 @@
 import React from 'react';
 import { ComponentMeta, ComponentStory } from '@storybook/react';
 
+// eslint-disable-next-line import/order
 import { Button, ThemeButton } from './Button';
 import 'app/styles/index.scss';
 import { ThemeDecorator } from 'shared/config/storyook/ThemeDecorator/ThemeDecorator';
