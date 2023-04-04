@@ -1,6 +1,5 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { ErrorButtonBug } from 'app/providers/ErrorBoundary';
 
 const MainPage = () => {
     const { t } = useTranslation();
@@ -8,6 +7,7 @@ const MainPage = () => {
         <>
             {/* this is for testing error */}
             {/* <ErrorButtonBug /> */}
+            {/*    <Counter /> */}
             <div>
                 {t('Main Page')}
 
