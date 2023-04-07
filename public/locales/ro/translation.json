@@ -4,12 +4,15 @@
   "Main Page": "Pagina Pricipala",
   "About Page": "Despre noi ",
   "Language": "Romana",
-  "toggle": "Inchide",
+  "toggle": "Intra",
   "Page not found": "Page nu a fost gasita",
   "something went wrong": "Opaa ceva nu a mers bine",
   "reload page": "Actualizeaza pagina",
   "trigege error": "Declanseaza eroarea",
   "Short language": "RO",
   "HomePage": "Acasa",
-  "AboutUS": "Despre noi"
+  "AboutUS": "Despre noi",
+  "Login": "Intra",
+  "Username": "Username",
+  "Password": "Password"
 }
