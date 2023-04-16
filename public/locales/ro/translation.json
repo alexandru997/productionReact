@@ -13,6 +13,9 @@
   "HomePage": "Acasa",
   "AboutUS": "Despre noi",
   "Login": "Intra",
-  "Username": "Username",
-  "Password": "Password"
+  "Username": "Prenume",
+  "Password": "Nume",
+  "Registrant Form": "Forma pentru inregistrare",
+  "Incorrect login or password": "A-ti gresit parola sau login-ul",
+  "Exit": "Exit"
 }

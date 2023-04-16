@@ -14,5 +14,8 @@
   "AboutUS": "About US",
   "Login": "Login",
   "Username": "Username",
-  "Password": "Password"
+  "Password": "Password",
+  "Registrant Form": "Registrant Form",
+  "Incorrect login or password": "Incorrect login or password",
+  "Exit": "Exit"
 }
