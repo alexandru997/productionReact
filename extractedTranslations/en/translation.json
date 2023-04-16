@@ -5,7 +5,9 @@
   },
   "About Page": "About Page",
   "AboutUS": "AboutUS",
+  "Exit": "Exit",
   "HomePage": "HomePage",
+  "Incorrect login or password": "",
   "Language": "Language",
   "Login": "Login",
   "Lorem ipsum dolor sit amet, consectetur adipisicing elit": {
@@ -15,6 +17,7 @@
   "Main Page": "Main Page",
   "Page not found": "Page not found",
   "Password": "Password",
+  "Registrant Form": "Registrant Form",
   "Username": "Username",
   "reload page": "reload page",
   "something went wrong": "something went wrong",
