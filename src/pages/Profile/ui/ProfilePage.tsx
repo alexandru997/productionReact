@@ -10,12 +10,13 @@ import {
     getProfileError,
     getProfileForm,
     getProfileIsLoading,
-    getProfileReadOnly,
-    ProfileCard,
+    getProfileReadOnly, getProfileValidateErrors,
+    ProfileCard, ValidateProfileErrors,
 } from 'entities/Profile';
 import { useSelector } from 'react-redux';
 import { Currency } from 'entities/Currency';
 import { Country } from 'entities/Country/model/types/country';
+import { Text, TextTheme } from 'shared/ui/Text/Text';
 import { ProfilePageHeader } from './ProfilePageHeader/ProfilePageHeader';
 
 const reducers: ReducersList = {
@@ -23,12 +24,23 @@ const reducers: ReducersList = {
 };
 
 const ProfilePage = () => {
-    const { t } = useTranslation();
+    const { t } = useTranslation('profile');
     const dispatch = useAppDispatch();
     const formData = useSelector(getProfileForm);
     const isLoading = useSelector(getProfileIsLoading);
     const error = useSelector(getProfileError);
     const readonly = useSelector(getProfileReadOnly);
+    const validateErrors = useSelector(getProfileValidateErrors);
+
+    const validateErrorsTranslates = {
+        [ValidateProfileErrors.SERVER_ERROR]: t('Server error'),
+        [ValidateProfileErrors.INCORRECT_COUNTRY]: t('Incorect Country'),
+        [ValidateProfileErrors.INCORRECT_USER_DATA]: t('Data is incorrect'),
+        [ValidateProfileErrors.NO_DATA]: t('No data'),
+        [ValidateProfileErrors.INCORRECT_AGE]: t('Age is incorrect'),
+
+    };
+
     useEffect(() => {
         dispatch(fetchProfileData());
     }, [dispatch]);
@@ -70,6 +82,8 @@ const ProfilePage = () => {
         <DynamicModuleLoader reducers={reducers} removeAfterUnmount>
             <div className={classNames('', {}, [])}>
                 <ProfilePageHeader />
+                {validateErrors?.length
+                    && validateErrors.map((err) => (<Text key={err} theme={TextTheme.ERROR} text={validateErrorsTranslates[err]} />))}
                 <ProfileCard
                     data={formData}
                     isLoading={isLoading}
