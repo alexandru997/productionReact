@@ -1,15 +1,20 @@
 {
   "Age": "Age",
+  "Age is incorrect": "Age is incorrect",
   "Cancel": "Cancel",
   "City": "City",
+  "Data is incorrect": "Data is incorrect",
   "Edit": "",
   "First name": "",
+  "Incorect Country": "Incorect Country",
   "Last name": "",
   "Link for avatar": "Link for avatar",
+  "No data": "No data",
   "Profile ": "",
   "Reload the page": "Reload the page",
   "Save": "Save",
   "Select currency": "Select currency",
+  "Server error": "Server error",
   "Something went wrong": "Something went wrong",
   "Username": ""
 }

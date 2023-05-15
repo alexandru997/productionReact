@@ -11,5 +11,10 @@
   "Age": "Age",
   "City": "City",
   "Link for avatar": "Link for avatar",
-  "Select currency": "Select currency"
+  "Select currency": "Select currency",
+  "Server error": "Server error",
+  "Incorect Country": "Incorect Country",
+  "Data is incorrect": "Data is incorrect",
+  "No data": "No data",
+  "Age is incorrect": "Age is incorrect"
 }
