@@ -3,5 +3,12 @@
   "Edit": "Edit",
   "Username": "Username",
   "Last name": "Last name",
-  "First name": "First name"
+  "First name": "First name",
+  "Something went wrong": "Something went wrong",
+  "Reload the page": "Reload the page",
+  "Cancel": "Cancel",
+  "Save": "Save",
+  "Age": "Age",
+  "City": "City",
+  "Link for avatar": "Link for avatar"
 }
