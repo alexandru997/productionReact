@@ -45,7 +45,10 @@ const ProfilePage = () => {
     }, [dispatch]);
 
     const onChangeAge = useCallback((value?: string) => {
-        dispatch(profileActions.updateProfile({ age: Number(value || 0) }));
+        const onlyNumbers = value?.replace(/\D/g, ''); // Remove all non-numeric characters
+        if (onlyNumbers) {
+            dispatch(profileActions.updateProfile({ age: Number(onlyNumbers) }));
+        }
     }, [dispatch]);
 
     const onChangeUsername = useCallback((value?: string) => {
