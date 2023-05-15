@@ -3,5 +3,13 @@
   "Edit": "Editeaza",
   "Username": "Username",
   "Last name": "Prenumele",
-  "First name": "Numele"
+  "First name": "Numele",
+  "Something went wrong": "Something went wrong",
+  "Reload the page": "Reload the page",
+  "Cancel": "Cancel",
+  "Save": "Save",
+  "Age": "Age",
+  "City": "City",
+  "Link for avatar": "Link for avatar",
+  "Select currency": "Select currency"
 }
