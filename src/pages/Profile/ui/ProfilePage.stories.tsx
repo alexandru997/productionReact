@@ -5,6 +5,8 @@ import 'app/styles/index.scss';
 import { ThemeDecorator } from 'shared/config/storyook/ThemeDecorator/ThemeDecorator';
 import { Theme } from 'app/providers/ThemeProvider';
 import { StoreDecorator } from 'shared/config/storyook/StoreDecorator/StoreDecorator';
+import { Country } from 'entities/Country/model/types/country';
+import { Currency } from 'entities/Currency';
 import ProfilePage from './ProfilePage';
 
 export default {
@@ -21,8 +23,34 @@ const Template: ComponentStory<typeof ProfilePage> = (args) => <ProfilePage {...
 export const Ligth = Template.bind({});
 Ligth.args = {};
 
-Ligth.decorators = [StoreDecorator({})];
+Ligth.decorators = [StoreDecorator({
+
+    profile: {
+        form: {
+            username: 'Alex',
+            age: 25,
+            country: Country.Moldova,
+            lastname: 'alexander',
+            first: 'xander',
+            city: 'Ungheni',
+            currency: Currency.EUR,
+        },
+    },
+
+})];
 export const Dark = Template.bind({});
 Dark.args = {};
 
-Dark.decorators = [ThemeDecorator(Theme.DARK), StoreDecorator({})];
+Dark.decorators = [ThemeDecorator(Theme.DARK), StoreDecorator({
+    profile: {
+        form: {
+            username: 'Alex',
+            age: 25,
+            country: Country.Moldova,
+            lastname: 'alexander',
+            first: 'xander',
+            city: 'Ungheni',
+            currency: Currency.EUR,
+        },
+    },
+})];
