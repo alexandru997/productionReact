@@ -19,5 +19,7 @@
   "Incorrect login or password": "A-ti gresit parola sau login-ul",
   "Exit": "Exit",
   "PROFILE_PAGE": "Pagina de profil",
-  "Select country": "Select country"
+  "Select country": "Select country",
+  "ARTICLE_DETAILS_PAGE": "Detalii articole",
+  "ARTICLES_PAGE": "Articole"
 }
