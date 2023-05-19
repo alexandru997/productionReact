@@ -19,5 +19,7 @@
   "Incorrect login or password": "Incorrect login or password",
   "Exit": "Exit",
   "PROFILE_PAGE": "Profile page",
-  "Select country": "Select country"
+  "Select country": "Select country",
+  "ARTICLE_DETAILS_PAGE": "Article details page",
+  "ARTICLES_PAGE": "Articles page"
 }
