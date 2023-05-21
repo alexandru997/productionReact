@@ -11,8 +11,6 @@ export const ArticleTextBlockComponent = memo(({ className }: ArticleTextBlockCo
     const { t } = useTranslation();
 
     return (
-        <div className={classNames(cls.ArticleTextBlockComponent, {}, [className])}>
-            sdfsdfds
-        </div>
+        <div className={classNames(cls.ArticleTextBlockComponent, {}, [className])} />
     );
 });
