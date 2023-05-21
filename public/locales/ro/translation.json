@@ -21,5 +21,11 @@
   "PROFILE_PAGE": "Pagina de profil",
   "Select country": "Select country",
   "ARTICLE_DETAILS_PAGE": "Detalii articole",
-  "ARTICLES_PAGE": "Articole"
+  "ARTICLES_PAGE": "Articole",
+  "Article details page": "Article details page",
+  "Articles Page": "Articles Page",
+  "Article not found": "Article not found",
+  "Something went wrong when article is loading": "Something went wrong when article is loading",
+  "Article Details": "Article Details",
+  "Article Image Block Component": "Article Image Block Component"
 }

@@ -7,6 +7,10 @@
   "AboutUS": "AboutUS",
   "Age": "Age",
   "Age is incorrect": "Age is incorrect",
+  "Article Details": "Article Details",
+  "Article details page": "Article details page",
+  "Article not found": "Article not found",
+  "Articles Page": "Articles Page",
   "Cancel": "Cancel",
   "City": "City",
   "Data is incorrect": "Data is incorrect",
@@ -37,9 +41,11 @@
   "Select currency": "Select currency",
   "Server error": "Server error",
   "Something went wrong": "Something went wrong",
+  "Something went wrong when article is loading": "Something went wrong when article is loading",
   "Username": "Username",
   "reload page": "reload page",
   "something went wrong": "something went wrong",
   "toggle": "Inchide",
-  "trigege error": "trigege error"
+  "trigege error": "trigege error",
+  "Article Image Block Component": "Article Image Block Component"
 }
