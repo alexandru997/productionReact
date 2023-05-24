@@ -8,6 +8,7 @@
   "Age": "Age",
   "Age is incorrect": "Age is incorrect",
   "Article Details": "Article Details",
+  "Article Image Block Component": "Article Image Block Component",
   "Article details page": "Article details page",
   "Article not found": "Article not found",
   "Articles Page": "Articles Page",
@@ -46,6 +47,5 @@
   "reload page": "reload page",
   "something went wrong": "something went wrong",
   "toggle": "Inchide",
-  "trigege error": "trigege error",
-  "Article Image Block Component": "Article Image Block Component"
+  "trigege error": "trigege error"
 }
