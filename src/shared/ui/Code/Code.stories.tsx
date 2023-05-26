@@ -15,7 +15,7 @@ const Template: ComponentStory<typeof Code> = (args) => <Code {...args} />;
 
 export const Normal = Template.bind({});
 Normal.args = {
-    children: ''
+    text: ''
         + 'import React from \'react\';\n'
         + 'import { ComponentMeta, ComponentStory } from \'@storybook/react\';\n'
         + 'import \'app/styles/index.scss\';\n'
