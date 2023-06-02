@@ -10,7 +10,6 @@ export const fetchCommentsByArticleId = createAsyncThunk<
     'articleDetails/fetchCommentsByArticleId',
     async (articleId, thunkApi) => {
         const { extra, rejectWithValue } = thunkApi;
-
         if (!articleId) {
             return rejectWithValue('error');
         }
@@ -20,6 +19,7 @@ export const fetchCommentsByArticleId = createAsyncThunk<
                 params: {
                     articleId,
                     _expand: 'user',
+                    _limit: 100,
                 },
             });
 
