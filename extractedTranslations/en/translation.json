@@ -42,9 +42,21 @@
   "Save": "Save",
   "Select country": "Select country",
   "Select currency": "Select currency",
+  "Send": "Send",
   "Server error": "Server error",
   "Something went wrong": "Something went wrong",
   "Something went wrong when article is loading": "Something went wrong when article is loading",
+  "Type text comment": {
+    "": {
+      "": {
+        "": {
+          "": {
+            "": ""
+          }
+        }
+      }
+    }
+  },
   "Username": "Username",
   "reload page": "reload page",
   "something went wrong": "something went wrong",
