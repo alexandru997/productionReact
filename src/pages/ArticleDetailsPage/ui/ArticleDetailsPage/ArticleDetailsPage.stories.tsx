@@ -27,6 +27,10 @@ Normal.decorators = [StoreDecorator({
             views: 1022,
             createdAt: '26.02.2022',
             type: [ArticleType.IT],
+            user: {
+                id: '1',
+                username: 'Alexander',
+            },
             blocks: [
                 {
                     id: '1',
