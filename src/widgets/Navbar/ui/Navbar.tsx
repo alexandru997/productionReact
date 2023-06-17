@@ -29,7 +29,7 @@ export const Navbar = ({ className }: NavbarProps) => {
 
     if (authData) {
         return (
-            <div className={classNames(cls.Navbar, {}, [])}>
+            <header className={classNames(cls.Navbar, {}, [])}>
 
                 <Button
                     className={cls.links}
@@ -43,12 +43,12 @@ export const Navbar = ({ className }: NavbarProps) => {
                     onClose={onCloseModal}
 
                 />
-            </div>
+            </header>
         );
     }
 
     return (
-        <div className={classNames(cls.Navbar, {}, [])}>
+        <header className={classNames(cls.Navbar, {}, [])}>
 
             <Button
                 className={cls.links}
@@ -63,6 +63,6 @@ export const Navbar = ({ className }: NavbarProps) => {
                     onClose={onCloseModal}
                 />
             )}
-        </div>
+        </header>
     );
 };
